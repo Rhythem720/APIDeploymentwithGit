@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "GYSMVgDbOURPZKhR3CHIuT9giJ0HMqIpv6PEzL71CdsKxbSZuhGQvamiuT+/9CW+Rb2PfTWC4qKC/ncVchBcqg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\rhythem.malviya\\Desktop\\TurfBooking\\TurfBooking\\TurfBooking.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rhythem.malviya\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\rhythem.malviya\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\rhythem.malviya\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
+    "C:\\Users\\rhythem.malviya\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
+    "C:\\Users\\rhythem.malviya\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
+    "C:\\Users\\rhythem.malviya\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.4.0\\swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}
