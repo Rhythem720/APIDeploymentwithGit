@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TurfBooking")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+56762354ab51fa407d0ca61aba89ffc31b23f64d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c1447cc471d8b322346c0071e37db1d88d2a92d6")]
 [assembly: System.Reflection.AssemblyProductAttribute("TurfBooking")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TurfBooking")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
