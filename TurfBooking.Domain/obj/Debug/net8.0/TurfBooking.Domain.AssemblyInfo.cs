@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TurfBooking.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c732146f5e7c7f619646db2a970ff524aeafcd9c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+99a1652bd837333be73603324aa6a4985378e576")]
 [assembly: System.Reflection.AssemblyProductAttribute("TurfBooking.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TurfBooking.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
