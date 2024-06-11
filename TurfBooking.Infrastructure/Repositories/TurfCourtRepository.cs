@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using TurfBooking.Domain.Entities;
-using TurfBooking.Domain.Repositories;
+using TurfBooking.Domain.IRepositories;
 using TurfBooking.Infrastructure.Data;
 
 namespace TurfBooking.Infrastructure.Services
@@ -17,7 +17,7 @@ namespace TurfBooking.Infrastructure.Services
         {
             _applicationDBContext = applicationDBContext;
         }
-        public bool AddTurf(TurfCourt newturfdetails)
+        public bool AddTurf(TurfDetails newturfdetails)
         {
             var user = _applicationDBContext.turfCourts.Add(newturfdetails);
             if (user != null)
@@ -32,7 +32,7 @@ namespace TurfBooking.Infrastructure.Services
 
         public bool DeleteTurf(int turfid)
         {
-            var turf = _applicationDBContext.turfCourts.SingleOrDefault<TurfCourt>(x=>x.TurfId==turfid);
+            var turf = _applicationDBContext.turfCourts.SingleOrDefault<TurfDetails>(x=>x.TurfId==turfid);
 
             if(turf != null)
             {
@@ -44,16 +44,16 @@ namespace TurfBooking.Infrastructure.Services
                 return false;
         }
 
-        public List<TurfCourt> GetAllTurfs()
+        public List<TurfDetails> GetAllTurfs()
         {
             return _applicationDBContext.turfCourts.ToList();
         }
 
-        public  TurfCourt GetTurf(int turfid)
+        public TurfDetails GetTurf(int turfid)
         {
             try
             {
-                TurfCourt turfCourt = _applicationDBContext.turfCourts.SingleOrDefault<TurfCourt>(x => x.TurfId == turfid);
+                TurfDetails? turfCourt = _applicationDBContext.turfCourts.SingleOrDefault<TurfDetails>(x => x.TurfId == turfid);
                 return turfCourt;
             }
             catch
@@ -64,9 +64,9 @@ namespace TurfBooking.Infrastructure.Services
           
         }
 
-        public TurfCourt UpdateTurf(TurfCourt turfCourt)
+        public TurfDetails UpdateTurf(TurfDetails turfCourt)
         {
-                 TurfCourt turf = _applicationDBContext.turfCourts.SingleOrDefault(x=>x.TurfId.Equals(turfCourt.TurfId));
+                 TurfDetails? turf = _applicationDBContext.turfCourts.SingleOrDefault(x=>x.TurfId.Equals(turfCourt.TurfId));
             
                 //_applicationDBContext.turfCourts.Update(turfCourt);
                 _applicationDBContext.Entry(turf).CurrentValues.SetValues(turfCourt);

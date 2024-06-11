@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using TurfBooking.Domain.Entities;
-using TurfBooking.Domain.Repositories;
+using TurfBooking.Domain.IRepositories;
 
 namespace TurfBooking.ApplicationLayer.Services
 {
@@ -16,21 +16,7 @@ namespace TurfBooking.ApplicationLayer.Services
                 _userRepository= userRepository;
         }
 
-       //public bool AddUser(User user)
-       // {
-       //     if(!_userRepository.IsEmailAvailable(user.UserEmail)) 
-       //     {
-
-       //         _userRepository.RegisterUser(user);
-
-       //         return true;
-       //     }
-       //     else
-       //     {
-       //         return false;
-       //     }
-       // }
-
+      
        public User GetUser(int id)
         {
             User old_user = _userRepository.GetParticularUser(id);
