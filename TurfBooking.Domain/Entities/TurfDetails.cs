@@ -15,18 +15,18 @@ namespace TurfBooking.Domain.Entities
         [Required]
         [Display(Name = "Turf Name")]
 
-        public string TurfName { get; set; }
+        public string TurfName { get; set; } = string.Empty;
 
         [Required]
         [Display(Name = "Turf Description")]
-        public string TurfDescription { get; set; }
+        public string TurfDescription { get; set; } = string.Empty;
         [Required]
         [MaxLength(50)]
-        public string TurfLocation { get; set; }
+        public string TurfLocation { get; set; } = string.Empty;
         [Required]
         [Display(Name = "Phone Number")]
         [RegularExpression("^([0-9]{10})$", ErrorMessage = "Invalid Mobile Number.")]
-        public string TurfContactNumber { get; set; }
+        public string TurfContactNumber { get; set; } = string.Empty;
 
         [Required]
         [Display(Name = "Turf Status")]
