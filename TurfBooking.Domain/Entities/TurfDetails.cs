@@ -4,6 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using TurfBooking.Domain.Entities.Enums;
 
 namespace TurfBooking.Domain.Entities
 {
@@ -29,6 +30,6 @@ namespace TurfBooking.Domain.Entities
 
         [Required]
         [Display(Name = "Turf Status")]
-        public Turfstatus CourtStatus { get; set; }
+        public TurfStatus CourtStatus { get; set; }
     }
 }
