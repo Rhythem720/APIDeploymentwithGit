@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using TurfBooking.Domain.Entities;
-using TurfBooking.Domain.Repositories;
+using TurfBooking.Domain.IRepositories;
 using TurfBooking.Infrastructure.Data;
 using TurfBooking.Infrastructure.JwtServices;
 
