@@ -30,3 +30,16 @@ C:\Users\rhythem.malviya\Desktop\TurfBooking\TurfBooking\obj\Debug\net8.0\refint
 C:\Users\rhythem.malviya\Desktop\TurfBooking\TurfBooking\obj\Debug\net8.0\TurfBooking.pdb
 C:\Users\rhythem.malviya\Desktop\TurfBooking\TurfBooking\obj\Debug\net8.0\TurfBooking.genruntimeconfig.cache
 C:\Users\rhythem.malviya\Desktop\TurfBooking\TurfBooking\obj\Debug\net8.0\ref\TurfBooking.dll
+C:\Users\rhythem.malviya\Desktop\TurfBooking\TurfBooking\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\rhythem.malviya\Desktop\TurfBooking\TurfBooking\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\rhythem.malviya\Desktop\TurfBooking\TurfBooking\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\rhythem.malviya\Desktop\TurfBooking\TurfBooking\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\rhythem.malviya\Desktop\TurfBooking\TurfBooking\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\rhythem.malviya\Desktop\TurfBooking\TurfBooking\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\rhythem.malviya\Desktop\TurfBooking\TurfBooking\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\rhythem.malviya\Desktop\TurfBooking\TurfBooking\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\rhythem.malviya\Desktop\TurfBooking\TurfBooking\bin\Debug\net8.0\TurfBooking.Application.dll
+C:\Users\rhythem.malviya\Desktop\TurfBooking\TurfBooking\bin\Debug\net8.0\TurfBooking.Domain.dll
+C:\Users\rhythem.malviya\Desktop\TurfBooking\TurfBooking\bin\Debug\net8.0\TurfBooking.Application.pdb
+C:\Users\rhythem.malviya\Desktop\TurfBooking\TurfBooking\bin\Debug\net8.0\TurfBooking.Domain.pdb
+C:\Users\rhythem.malviya\Desktop\TurfBooking\TurfBooking\obj\Debug\net8.0\TurfBooking.sourcelink.json
